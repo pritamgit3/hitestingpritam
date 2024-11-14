@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+      text-transform: uppercase;
+    img{
+        background-color: bisque;
+        border-radius: 50%;
+        border: 2px solid green;
+        width: 600px;
+        animation: rotate 5s linear infinite;
+    }
+}
+
+.main{ 
+    font-size: 50px;
+
+}
+
+/* Define the keyframes for the rotation */
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Apply the animation to an element */
+  .rotating-element {
+    animation: rotate 2s linear infinite;
+  }
+  
